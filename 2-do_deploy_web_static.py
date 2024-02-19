@@ -4,7 +4,7 @@ from fabric.api import env, put, run
 from os.path import exists
 
 <<<<<<< HEAD
-env.hosts = ["54.209.26.141", "18.215.182.32"]
+env.hosts = ["54.174.30.113", "3.95.216.87"]
 env.user = "ubuntu"
 env.key = "~/.ssh/id_rsa"
 =======
@@ -13,7 +13,7 @@ from datetime import datetime
 from fabric.api import env, local, put, run, runs_once
 
 
-env.hosts = ['54.164.125.6', '3.95.216.87']
+env.hosts = ['54.174.30.113', '3.95.216.87']
 >>>>>>> e53ddc400784148de62dde8d5ef114793def52d4
 
 
